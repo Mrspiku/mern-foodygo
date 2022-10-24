@@ -11,9 +11,9 @@ const User= require("../models/userschema");
 
 
 
-router.get('/',(req,res) =>{
-    res.send("hellow router");
-});
+// router.get('/',(req,res) =>{
+//     res.send("hellow router");
+// });
 
 
 router.get('/service',authenticate, (req,res)=>{
